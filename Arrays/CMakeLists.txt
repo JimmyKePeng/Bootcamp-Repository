@@ -2,7 +2,7 @@ project(CS301_Bootcamp)
 
 set(CMAKE_CXX_STANDARD)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY .)
 
 # Example Mains
 add_executable(Array_Ex_Declaring_and_Looping Declaring_and_Looping.cpp)
@@ -26,7 +26,7 @@ add_executable(Array_part4 unit_tests/part4_main.cpp Array_Practice.cpp Array_Pr
 
 # Unit Tests
 add_executable(Array_Unit_Tests
-        ../../catch/unit_test_utils.cpp
-        ../../catch/unit_test_utils.h
+        ../catch/unit_test_utils.cpp
+        ../catch/unit_test_utils.h
         unit_tests/ArrayTests.cpp
         Array_Practice.cpp Array_Practice.h)

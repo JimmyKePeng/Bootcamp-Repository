@@ -7,13 +7,7 @@ project(CS301-Bootcamp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-
-# Example Mains
-add_executable(Classes_Ex_Employee_Pay Classes_Ex_Employee_Pay.cpp)
-
-# Unit Tests
-add_executable(Classes_Tests unit_tests/ClassTests.cpp Deck.cpp Deck.h)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY .)
 
 # Main files
-add_executable(Basic_Deck_Tester Basic_Deck_Tester.cpp Card_Game.cpp Deck.cpp Deck.h)
+add_executable(File_Main FileMain.cpp FileExamples.cpp FileExamples.h)

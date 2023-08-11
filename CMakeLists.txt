@@ -10,18 +10,23 @@ include_directories(catch)
 add_library(catch2_main_DO_NOT_RUN STATIC catch/catch_main.cpp)
 target_include_directories(catch2_main_DO_NOT_RUN PUBLIC catch/)
 
-# Day 1
-add_subdirectory("Day 1")
 
-# Day 2
-add_subdirectory("Day 2")
+add_subdirectory("cin cout getline")
+add_subdirectory("Types and Casting")
+add_subdirectory("Strings")
+add_subdirectory("Scope")
 
+add_subdirectory("Functions")
+add_subdirectory("Loops")
+add_subdirectory("Arrays")
 
-# Day 3
-add_subdirectory("Day 3")
+add_subdirectory("Classes")
+add_subdirectory("File Reading and Writing")
+add_subdirectory("Pointers")
+
+add_subdirectory("Linked Lists")
 
 # Day 4
 add_subdirectory("Day 4")
 
-#add_subdirectory("Day 5")
 

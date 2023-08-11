@@ -13,7 +13,7 @@ add_executable(LinkList_Exercise_1_and_2 Exercise_1_and_2_main.cpp)
 # Unit Tests
 add_executable(LinkList_Tests
         LinkListInt.cpp LinkListInt.h
-        "${CMAKE_CURRENT_SOURCE_DIR}/unit_tests/link_list_tests.cpp")
+        "unit_tests/link_list_tests.cpp")
 
 # Example Mains
 add_executable(LinkList_Examples link_list_examples.cpp FindPriorNode.cpp FindPriorNode.h DeleteNode.cpp DeleteNode.h)

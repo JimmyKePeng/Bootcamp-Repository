@@ -7,7 +7,7 @@ project(CS301-Bootcamp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY .)
 
 # Main files
 add_executable(Pointers_Ex_Basic_Usage Pointers_Ex_basic_usage.cpp)
