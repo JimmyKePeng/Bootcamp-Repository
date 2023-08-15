@@ -15,18 +15,14 @@ add_subdirectory("cin cout getline")
 add_subdirectory("Types and Casting")
 add_subdirectory("Strings")
 add_subdirectory("Scope")
-
 add_subdirectory("Functions")
 add_subdirectory("Loops")
 add_subdirectory("Arrays")
-
 add_subdirectory("Classes")
 add_subdirectory("File Reading and Writing")
 add_subdirectory("Pointers")
-
 add_subdirectory("Linked Lists")
 
-# Day 4
-add_subdirectory("Day 4")
+
 
 
