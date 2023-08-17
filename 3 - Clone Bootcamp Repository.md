@@ -1,6 +1,6 @@
 # Clone Bootcamp Material
 
-Next, you will "clone" the bootcamp material from GitHub to your machine.
+After you configure your compiler for CLion, you will "clone" the bootcamp material from GitHub to your machine.
 
 ### Create a copy of the bootcamp repository
 
