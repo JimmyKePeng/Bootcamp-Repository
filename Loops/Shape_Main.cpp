@@ -2,6 +2,7 @@
 #include "ShapePrint.h"
 using namespace std;
 
+
 int main() {
 
     TrianglePrint(4);
