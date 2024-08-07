@@ -1,3 +1,3 @@
 ## Write the output of the following code.
 
-![img.png](img.png)
+![img.png](mystery.png)
