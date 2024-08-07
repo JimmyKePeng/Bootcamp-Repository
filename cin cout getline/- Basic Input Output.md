@@ -2,7 +2,8 @@
 Written by Varick Erickson - &copy; Varick Erickson 2022
 
 A terminal or console is one of the simplest and most often used method of 
-interacting with a program.  If you are Windows, the powershelll or cmd program 
+interacting with a program.  If you are Windows, the powershell or cmd 
+program 
 can be used:  
 
 

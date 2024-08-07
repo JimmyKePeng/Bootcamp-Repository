@@ -1,8 +1,18 @@
-# Clone Bootcamp Material
+> # Important
+> 
+> Make sure you will create a [GitHub account](https://github.com/) before 
+> you start.  You can use a personal or school email address for the account.
+> 
+> We assume that most students in the bootcamp have never used git version 
+> control before. During the bootcamp we will demonstrate the basic git 
+> commands you will need.
 
-After you configure your compiler for CLion, you will "clone" the bootcamp material from GitHub to your machine.
+# Create a copy of the bootcamp repository
 
-### Create a copy of the bootcamp repository
+The first step is to create a copy of the bootcamp repository.  This 
+repository contains all the code, instructions, guides, etc needed for the 
+bootcamp.  After you create a copy of the repository, you will be able to 
+modify it as you wish.
 
 * Navigate to the
   [bootcamp repository](https://github.com/DrErickson/CS301_Bootcamp_Topics).

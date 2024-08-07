@@ -14,32 +14,68 @@ Structures and Algorithms course.
 
 # Setting Up the IDE (Integrated Development Environment)
 
-Guides for setting up the IDE and programming environment are available 
-[here](Setting%20up%20the%20IDE%20(IMPORTANT).md). The material of this 
-bootcamp can be run out of the box (mostly) on JetBrain's IDE CLion and will 
-be the supported platform for this bootcamp. CLion is freely available for 
-students and runs on Window, MacOS, and Linux.
+We highly recommend setting up your IDE prior to the bootcamp. There are two 
+supported options for the IDE:
+* CLion (Recommended if you are bringing your own laptop) - 
+[**Clion Setup Guide**](1%20-%20Setting%20up%20CLion%20IDE%20(if%20bringing%20own%20laptop).md)
+* Visual Studio Code on Codespaces (Runs in a browser) - 
+[**VS Code Setup Guide**](1%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(if%20you%20plan%20on%20using%20a%20lab%20computer).md)
+* Visual Studio Code (Runs on local machine) - Guide still under development
 
-The material can also be run on Visual Studio Code with some additional 
-setup of the programming environment. Visual Studio Code is also 
-cross-platform and can run on Windows, MacOS, and Linux.  While you are 
-welcome to use this platform, we will not be supporting this platform during 
-the bootcamp. Also note that Visual Studio Code is *not* the same as Visual 
-Studio. While it may be possible to use Visual Studio for the bootcamp material,
-we currently do not have any documentation to set up the environment on the 
-Visual Studio IDE.
+The material of this bootcamp can be run out of the box on JetBrain's IDE 
+CLion and will be one of the supported platforms for this bootcamp. CLion is 
+freely available for students and runs on Window, MacOS, and Linux.  If you 
+plan on bringing your own laptop, we highly recommend setting up your laptop 
+prior to coming to the bootcamp.
+
+If you do not have a laptop during the bootcamp, it is possible to run a
+cloud instance of Visual Studio Code using a GitHub feature called 
+Codespaces.  If you plan on using this option, we suggest 
+following the
+[VS Code Setup Guide](1%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(only%20if%20you%20plan%20on%20using%20a%20lab%20computer).md) 
+and familiarising yourself with the coding workflow before coming to the 
+bootcamp.
+
+> **Notes:**
+>
+> Visual Studio Code can also be run locally on your computer rather than 
+> on Codespaces additional setup of the toolchain (installing and 
+> configuring CMake, a compiler, etc).  Visual Studio Code is cross-platform
+> and can run on Windows, MacOS, and Linux. However, at the moment, we do not 
+> have a guide written for the setup. 
+> 
+> Also note that Visual Studio Code is ***not*** the same as Visual Studio. 
+> While it may be possible to use Visual Studio for the bootcamp material, we 
+> currently do not have any documentation to set up the environment on the 
+> Visual Studio IDE.
 
 > **TLDR**
 > 
-> You can use whatever IDE you want, but you really should use CLion since it 
-> is a solid IDE and it is the IDE we will officially support during the 
-> bootcamp.
+> You can use whatever IDE you want, but you really should use either 
+> [CLion](2%20-%20Setting%20up%20CLion%20IDE%20(Recommended).md) 
+> or 
+> [VS Code on Codespaces](2%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(only%20if%20you%20plan%20on%20using%20a%20lab%20computer).md)
+> .  These are the officially supported IDE's for the bootcamp.
 
+# Codespaces and Visual Studio Code (cloud)
+
+> Skip this guide if you are using CLion on your own machine during the 
+> bootcamp.
+> 
+> You only need to reference this guide if you plan on using the computers 
+> in the lab during the bootcamp.
+
+If you do not have a laptop during the bootcamp, it is possible to run a 
+cloud instance of Visual Studio Code using a GitHub feature called Codespaces.
+
+Click [here](4%20-%20Codespaces%20(only%20if%20you%20plan%20on%20using%20a%20lab%20computer).md)
+for a guide on how to use Codespaces.
 
 # GitHub
 
 All the material for the workshop is hosted on GitHub. In order to use the 
-material, you will need to create a [GitHub account](https://github.com/).
+material, you will need to create a [GitHub account](https://github.com/). 
+You can use a personal or school email address for the account.
 
 We assume that most students in the bootcamp have never used git version 
 control before.  During the bootcamp we will demonstrate the basic git 

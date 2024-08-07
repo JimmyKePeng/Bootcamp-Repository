@@ -47,14 +47,14 @@ you can add your GitHub using **"Get from VCS"**.
 
 Next you will need to configure your compiler.
 
-* [Windows Instructions](2%20-%20Compiler Setup%20(Windows).md)
-* [MacOS Instructions](2%20-%20Compiler%20Setup%20(MacOS).md)
+* [Windows Instructions](CLion%20Compiler%20Setup%20(Windows).md)
+* [MacOS Instructions](CLion%20Compiler%20Setup%20(MacOS).md)
 
 
 # Windows Only (Optional)
 
 There is a small issue with printing where an extra space is printed the 
-first instance you call cout.  This can be fixed using the following steps.
+first instance you call `cout`.  This can be fixed using the following steps.
 
 ### Help &rarr; Find Action
 ![./images/registry_01.png](_md_images/registry_01.png)
