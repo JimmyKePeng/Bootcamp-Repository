@@ -15,12 +15,13 @@ Structures and Algorithms course.
 # Setting Up the IDE (Integrated Development Environment)
 
 We highly recommend setting up your IDE prior to the bootcamp. There are two 
-supported options for the IDE:
-* CLion (Recommended if you are bringing your own laptop) - 
-[**Clion Setup Guide**](1%20-%20Setting%20up%20CLion%20IDE%20(if%20bringing%20own%20laptop).md)
-* Visual Studio Code on Codespaces (Runs in a browser) - 
-[**VS Code Setup Guide**](1%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(if%20you%20plan%20on%20using%20a%20lab%20computer).md)
-* Visual Studio Code (Runs on local machine) - Guide still under development
+officially supported options for the IDE and one unsupported option:
+1. CLion (Recommended if you are bringing your own laptop) - 
+[**Clion Setup Guide**](2%20-%20Setting%20up%20CLion%20IDE%20(if%20bringing%20own%20laptop).md)
+2. Visual Studio Code on Codespaces (Runs in a browser) - 
+[**VS Code Setup Guide**](2%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(if%20you%20plan%20on%20using%20a%20lab%20computer).md)
+3. Visual Studio Code ((Unsupported option, runs on local machine) - Guide 
+   still under development
 
 The material of this bootcamp can be run out of the box on JetBrain's IDE 
 CLion and will be one of the supported platforms for this bootcamp. CLion is 
@@ -30,11 +31,8 @@ prior to coming to the bootcamp.
 
 If you do not have a laptop during the bootcamp, it is possible to run a
 cloud instance of Visual Studio Code using a GitHub feature called 
-Codespaces.  If you plan on using this option, we suggest 
-following the
-[VS Code Setup Guide](1%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(only%20if%20you%20plan%20on%20using%20a%20lab%20computer).md) 
-and familiarising yourself with the coding workflow before coming to the 
-bootcamp.
+Codespaces.  If you plan on using this option, we suggest familiarising 
+yourself with the coding workflow before coming to the bootcamp.
 
 > **Notes:**
 >
@@ -52,24 +50,10 @@ bootcamp.
 > **TLDR**
 > 
 > You can use whatever IDE you want, but you really should use either 
-> [CLion](2%20-%20Setting%20up%20CLion%20IDE%20(Recommended).md) 
+> [CLion](2%20-%20Setting%20up%20CLion%20IDE%20(if%20bringing%20own%20laptop).md)
 > or 
-> [VS Code on Codespaces](2%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(only%20if%20you%20plan%20on%20using%20a%20lab%20computer).md)
+> [VS Code on Codespaces](2%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(if%20you%20plan%20on%20using%20a%20lab%20computer).md)
 > .  These are the officially supported IDE's for the bootcamp.
-
-# Codespaces and Visual Studio Code (cloud)
-
-> Skip this guide if you are using CLion on your own machine during the 
-> bootcamp.
-> 
-> You only need to reference this guide if you plan on using the computers 
-> in the lab during the bootcamp.
-
-If you do not have a laptop during the bootcamp, it is possible to run a 
-cloud instance of Visual Studio Code using a GitHub feature called Codespaces.
-
-Click [here](4%20-%20Codespaces%20(only%20if%20you%20plan%20on%20using%20a%20lab%20computer).md)
-for a guide on how to use Codespaces.
 
 # GitHub
 
