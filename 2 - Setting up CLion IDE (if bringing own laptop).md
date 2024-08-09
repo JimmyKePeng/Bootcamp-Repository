@@ -50,7 +50,6 @@ Next you will need to configure your compiler.
 * [Windows Instructions](CLion%20Compiler%20Setup%20(Windows).md)
 * [MacOS Instructions](CLion%20Compiler%20Setup%20(MacOS).md)
 
-
 # Windows Only (Optional)
 
 There is a small issue with printing where an extra space is printed the 

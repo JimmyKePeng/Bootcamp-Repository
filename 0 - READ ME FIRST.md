@@ -10,7 +10,25 @@ Structures and Algorithms course.
 > **TLDR**
 > If you want a refresher before Data Structures and Algorithms, you are in 
 > the right place.
+> 
+> Before you come to the bootcamp you should
+> 1. Create a [Bootcamp Repository](1%20-%20Create%20a%20Bootcamp%20Repository.md)
+> 2. Setup one of the IDE options
+> 3. Test the chosen IDE
 >
+
+# GitHub
+
+All the material for the workshop is hosted on GitHub. In order to use the
+material, you will need to create a [GitHub account](https://github.com/).
+You can use a personal or school email address for the account.
+
+We assume that most students in the bootcamp have never used git version
+control before.  During the bootcamp we will demonstrate the basic git
+commands you will need.
+
+After setting up your GitHub account, you should create a 
+[Bootcamp Repository](1%20-%20Create%20a%20Bootcamp%20Repository.md)
 
 # Setting Up the IDE (Integrated Development Environment)
 
@@ -55,12 +73,10 @@ yourself with the coding workflow before coming to the bootcamp.
 > [VS Code on Codespaces](2%20-%20Setting%20up%20VS%20Code%20IDE%20on%20Codespaces%20(if%20you%20plan%20on%20using%20a%20lab%20computer).md)
 > .  These are the officially supported IDE's for the bootcamp.
 
-# GitHub
+# Testing your IDE
 
-All the material for the workshop is hosted on GitHub. In order to use the 
-material, you will need to create a [GitHub account](https://github.com/). 
-You can use a personal or school email address for the account.
-
-We assume that most students in the bootcamp have never used git version 
-control before.  During the bootcamp we will demonstrate the basic git 
-commands you will need. 
+After you configure your IDE, you should test your IDE to ensure your 
+toolchain is working (you can compile and run code):
+* [Testing the CLion IDE](3%20-%20Testing%20the%20CLion%20IDE.md)
+* [Testing the VS Code IDE](3%20-%20Testing%20the%20VS%20Code%20IDE.md)
+ 
