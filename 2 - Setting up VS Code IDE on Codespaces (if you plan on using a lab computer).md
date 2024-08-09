@@ -49,11 +49,19 @@ After it is installed, click the CMake Tools icon on the left menu.
 
 ![img_2.png](_md_images/CMake_Tools_Icon.png)
 
-Select the `Clang` compiler.
+Click the ![img_2.png](_md_images/VSC_edit_icon.png) next to the `[No Kit Selected]`.  
 
-![img_3.png](_md_images/CMake_Tools_Config_Compiler.png)
+![img_1.png](_md_images/VSC_Configure_Compiler.png)
 
-> For more information about CMake and visutal studio code, you can also 
+Select the `Clang` compiler (your version of Clang may be different):
+
+![img_3.png](_md_images/Select_Clang.png)
+
+Your `CMake Tools` menu should now show `Clang` as your compiler.
+
+![img_4.png](_md_images/CMake_Tools_Clang_Correct.png)
+
+> For more information about CMake and Visual Studio Code, you can also 
 > check the following resource:
 > 
 > https://code.visualstudio.com/docs/cpp/cmake-linux
@@ -61,8 +69,21 @@ Select the `Clang` compiler.
 # Install C/C++ Extension Pack
 
 The C/C++ Extension Pack provides VS Code the ability to autocomplete 
-functions and highlight code.  When you open a `.cpp` file for the first 
-time, VS Code will prompt you to install the extension.  Click `Install` to 
-install the extension pack. 
+functions and highlight code.  
+
+Click the `Explorer Icon` ![img_5.png](_md_images/VSC_Explorer_Icon.png) on the left vertical menu. 
+This will show you the all the folders and files of the bootcamp repository.
+
+Open the `Hello_World.cpp` file under the `_IDE Hello World Test` folder.
+
+![img_6.png](_md_images/VSC_Hello_World_select.png)
+
+When you open the file for the first VS Code will prompt you to install the 
+extension.  Click `Install` to install the extension pack. 
 
 ![img_4.png](_md_images/VS_Code_Cpp_Pack.png)
+
+# Testing your IDE
+
+Next, test your IDE setup to make sure it is working properly using this guide.
+* [Testing the VS Code IDE](3%20-%20Testing%20the%20VS%20Code%20IDE.md)
