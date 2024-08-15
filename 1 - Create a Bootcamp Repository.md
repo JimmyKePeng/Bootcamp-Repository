@@ -30,7 +30,7 @@ modify it as you wish.
 
   ![img_6.png](_md_images/Create_a_new_respository_from_Bootcamp.png)
 
-### Clone material to local machine
+### Clone material to local machine (Only for CLion)
 
 * Click "Get from VCS"
 
