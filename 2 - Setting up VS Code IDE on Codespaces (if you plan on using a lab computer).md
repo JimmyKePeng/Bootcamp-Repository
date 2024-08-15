@@ -22,7 +22,7 @@ a [GitHub account](https://github.com/signup) already created.
 You can use either a personal or school email address with your GitHub account.
 
 Once you have cloned the repository
-(see [3 - Clone Bootcamp Repository](3%20-%20Clone%20Bootcamp%20Repository.md)),
+(see [1 - Create a Bootcamp Repository](1%20-%20Create%20a%20Bootcamp%20Repository.md)),
 click on
 
 **"Code" &rarr; "Codespaces" &rarr; "+"**

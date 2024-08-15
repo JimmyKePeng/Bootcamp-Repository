@@ -29,22 +29,3 @@ modify it as you wish.
 * Click **"Create repository from template"**
 
   ![img_6.png](_md_images/Create_a_new_respository_from_Bootcamp.png)
-
-### Clone material to local machine (Only for CLion)
-
-* Click "Get from VCS"
-
-  ![img_8.png](_md_images/Welcome_to_CLion.png)
-
-  Alternatively, you can also click **"File" &rarr; "New" &rarr; "Project from
-  Version Control"**
-
-  ![img_9.png](_md_images/project_from_VC.png)
-* From here you should be able to see all of your GitHub projects.  Click
-  **Clone**.
-
-  ![img_10.png](_md_images/get_from_vc_clone.png)
-
-* Click **"Ok"** after you see the following settings wizard prompt
-
-  ![img_11.png](_md_images/open_project_wizard.png)

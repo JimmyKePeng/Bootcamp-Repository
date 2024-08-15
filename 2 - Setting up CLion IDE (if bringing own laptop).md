@@ -64,3 +64,26 @@ first instance you call `cout`.  This can be fixed using the following steps.
 ### Select run.processess.with.pty
 ![./images/registry_02.png](_md_images/registry_02.png)
 
+# Clone bootcamp repository
+After you set up your IDE, you can now clone the bootcamp repository to your 
+local machaine.
+
+> ### Note
+> You may need to install Git if you do not have this option.
+
+* Click "Get from VCS"
+
+  ![img_8.png](_md_images/Welcome_to_CLion.png)
+
+  Alternatively, you can also click **"File" &rarr; "New" &rarr; "Project from
+  Version Control"**
+
+  ![img_9.png](_md_images/project_from_VC.png)
+* From here you should be able to see all of your GitHub projects.  Click
+  **Clone**.
+
+  ![img_10.png](_md_images/get_from_vc_clone.png)
+
+* Click **"Ok"** after you see the following settings wizard prompt
+
+  ![img_11.png](_md_images/open_project_wizard.png)
