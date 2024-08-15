@@ -8,7 +8,8 @@
 
 #define CATCH_CONFIG_MAIN
 #include <iostream>
-#include "catch.hpp"
+//#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "../Deck.h"
 #include <set>
 #include <vector>

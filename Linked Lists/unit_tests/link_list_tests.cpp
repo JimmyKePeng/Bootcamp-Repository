@@ -6,9 +6,10 @@
  * The purpose of this file is to test the functions for the various loop functions.
  */
 
-#define CATCH_CONFIG_MAIN
+//#define CATCH_CONFIG_MAIN
 #include <iostream>
-#include "catch.hpp"
+//#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "../LinkListInt.h"
 #include "unit_test_utils.h"
 

@@ -2,7 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include "catch.hpp"
+//#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 
 using namespace std;
 
@@ -74,18 +75,18 @@ void CompareOutput(string test_title, string file_expected, string file_actual) 
 
     if (getline(fExpected, expected_line)) {
         INFO("Your program is missing output.");
-        INFO("")
+        INFO("");
         INFO("Missing output: " << expected_line);
-        INFO("")
+        INFO("");
         INFO("Please review " << file_expected << " and " << file_actual << "(your program output)");
         FAIL();
     }
 
     if (getline(fActual, actual_line)) {
         INFO("Extra output found in " << file_actual << " (your program output)");
-        INFO("")
+        INFO("");
         INFO("Extra output: " << actual_line);
-        INFO("")
+        INFO("");
         INFO("Please review " << file_expected << " and " << file_actual);
         FAIL();
     }

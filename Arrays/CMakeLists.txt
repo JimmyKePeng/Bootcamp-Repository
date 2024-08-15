@@ -1,6 +1,14 @@
 project(CS301_Bootcamp)
 
-set(CMAKE_CXX_STANDARD)
+set(CMAKE_CXX_STANDARD 14)
+
+include(FetchContent)
+FetchContent_Declare(
+        Catch2
+        GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+        GIT_TAG v3.6.0
+)
+FetchContent_MakeAvailable(Catch2)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY .)
 
@@ -30,3 +38,6 @@ add_executable(Array_Unit_Tests
         ../catch/unit_test_utils.h
         unit_tests/ArrayTests.cpp
         Array_Practice.cpp Array_Practice.h)
+
+# Link the Catch2 library to the executable
+target_link_libraries(Array_Unit_Tests Catch2::Catch2WithMain)
