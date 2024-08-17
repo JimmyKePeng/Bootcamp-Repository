@@ -30,6 +30,35 @@ private:
 * `topCard` represents the "top" card of the deck.  If the
   deck has 52 cards, the `topCard` will have a value of 51.
 
+## Visualizing the Deck Class
+
+The array `cards` in the `Deck` class represents the stack of cards. In
+our case, the class is able to store up to four decks of cards (208 cards).  
+This is because `MAX_DECK_SIZE` defined to be 4*52.
+
+The `topCard` index is used to keep track of where the top of the deck is
+located within the array.
+
+Here is an example of a `Deck` instance containing 4 cards:
+
+![img_2.png](../_md_images/deck_visual.png)
+
+* Since the `MAX_DECK_SIZE` is defined to be four decks, this means the
+  `cards` array is sized for 208 cards.
+* `topCard` in this case has a value of 3.
+* Also notice that not all the positions in the array are used.
+  For example, indices 4 to index 207 are unused in this case.
+
+Since `cards` is an array of type `Card`, this means each position stores a
+`Card` type.  In the example, we can see that the topmost card stored is a 2
+of Clubs.
+
+If we were to add a card to this deck, then the new card would go into index
+4 and the value of `topCard` would be updated.  The following shows what the
+deck would look like after adding an 8 of Hearts to the deck:
+
+![img_3.png](../_md_images/deck_visual_3.png)
+
 ## Card struct
 
 We represent a single card using a struct.  The Deck class represents the deck
