@@ -8,6 +8,7 @@ int main()
     cout << "Hello World!" << endl;
     cout << "It looks like your IDE is working fine!" << endl;
     cout << "Nice!" << endl;
+    cout << "testing #1" << endl;
 
     return 0;
 }
