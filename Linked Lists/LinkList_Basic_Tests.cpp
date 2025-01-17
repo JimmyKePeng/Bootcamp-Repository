@@ -9,7 +9,6 @@ using namespace std;
 int main(void) {
 
     LinkListInt list;
-
     list.Add(5);
     list.Add(6);
     list.Add(8);

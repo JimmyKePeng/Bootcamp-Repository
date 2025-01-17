@@ -13,6 +13,11 @@ const string FACENAMES[] = {"Jack", "Queen", "King"};
 enum SuitType {HEARTS, DIAMONDS, CLOVER, SPADES, BAD_SUIT};
 enum FaceType {JACK, QUEEN, KING, NUMERAL, BAD_FACE};
 
+// const int A = 0;
+// const int B = 1;
+
+enum LetterType {A, B, C, D, E, F, G, H};
+
 struct Card {
     /* Put your card definition here */
     SuitType suit;
@@ -20,6 +25,14 @@ struct Card {
     int rank;   // value that is assigned to a card
 
     string toString() {
+
+        string faceName = FACENAMES[face];
+        string suitName = SUITNAMES[suit];
+        if (face != NUMERAL)
+        {
+            return faceName + " of " + suitName;
+        }
+        return to_string(rank) + " of " + suitName;
         // Use the FACENAMES array and face private variable to
         // determine the string representation of the card suit.
 

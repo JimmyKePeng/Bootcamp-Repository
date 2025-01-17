@@ -3,8 +3,9 @@
 #include <iostream>
 
 using namespace std;
-
+// enum FaceType {JACK, QUEEN, KING, NUMERAL, BAD_FACE};
 int main() {
+
 
     Deck deck;
 
@@ -24,7 +25,7 @@ int main() {
         cout << "Drew " << card.toString() << endl;
         deck.AddCard(card);
     }
-    cout << "The deck has " << deck.NumCards() << " cards." << endl;
+    cout << "\nThe deck has " << deck.NumCards() << " cards." << endl;
 
     while (deck.NumCards() > 0) {
         cout << "Drew " << deck.DrawTopCard().toString() << endl;
